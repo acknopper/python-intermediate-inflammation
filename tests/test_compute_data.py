@@ -16,7 +16,7 @@ def test_analyse_data_mock_source():
   analyse_data(data_source)
 
 def test_analyse_data():
-    path = os.path.join( os.getcwd(), "../data")
+    path = os.path.join( os.getcwd(), "data")
     data_source = CSVDataSource(path)
     result = analyse_data(data_source)
     expected_output = [0.,0.22510286,0.18157299,0.1264423,0.9495481,0.27118211,
